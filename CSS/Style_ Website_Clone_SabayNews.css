@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans Khmer', sans-serif;
+}
+.header {
+  width: 100%;
+  height: 150px;
+  background-color: black;
+  display: flex;
+}
+.logo {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  width: 14%;
+  height: 50%;
+}
+.ad {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-menu {
+  width: 100%;
+  height: 70px;
+  background-color: red;
+}
+.menu {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu a {
+  text-decoration: none;
+  margin: 20px;
+  color: white;
+  font-size: 22px;
+}
