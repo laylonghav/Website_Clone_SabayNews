@@ -64,7 +64,7 @@
 .body1 {
   width: 80%;
   height: 700px;
-  background-color: aqua;
+  /* background-color: aqua; */
   margin: 15px auto;
   display: flex;
   justify-content: space-between;
@@ -72,18 +72,19 @@
 .box-left {
   width: 74.8%;
   height: 100%;
-  background-color: aquamarine;
+  /* background-color: aquamarine;  */
 }
 .box-left-top {
   width: 100%;
   height: 50%;
-  background-color: rgb(33, 148, 110);
+  /* background-color: rgba(1, 252, 168, 0.123);  */
   display: flex;
 }
 .box-left-top-left {
+  position: relative;
   width: 58%;
   height: 100%;
-  background-color: black;
+  background-color: rgba(209, 11, 11, 0.014);
   display: flex;
 }
 .box-left-top-left img {
@@ -105,26 +106,36 @@
 .box-left-bottom {
   width: 100%;
   height: 50%;
-  background-color: rgb(172, 127, 255);
+  /* background-color: rgb(172, 127, 255); */
   display: flex;
 }
-.box-left-bottom-left{
+.box-left-bottom-left {
   width: 58%;
   height: 100%;
+  background-color: rgba(0, 0, 0, 0.281);
+  position: relative;
+  overflow: hidden;
 }
 .box-left-bottom-left img {
   /* transform: scale(1.5); */
   width: 100%;
   height: 100%;
+  position: absolute;
+  z-index: -1;
 }
-.box-left-bottom-right{
+.box-left-bottom-right {
   width: 42%;
   height: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  position: relative;
+  overflow: hidden;
 }
 .box-left-bottom-right img {
   /* transform: scale(1.5); */
   width: 100%;
   height: 100%;
+  position: absolute;
+  z-index: -1;
 }
 .box-right {
   width: 24.3%;
@@ -136,7 +147,7 @@
   height: 49%;
   background-color: rgb(127, 168, 255);
 }
-.box-right-top img{
+.box-right-top img {
   width: 100%;
   height: 100%;
 }
@@ -144,8 +155,72 @@
   margin-top: 14px;
   width: 100%;
   height: 49%;
-  background-color: rgb(66, 78, 22);
-}.box-right-bottom img{
+  background-color: rgba(255, 255, 255, 0);
+}
+.box-right-bottom img {
   width: 100%;
   height: 100%;
+}
+.clippy3 {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12%;
+  height: 30px;
+  color: white;
+  background-color: rgb(235, 64, 135);
+  clip-path: polygon(0 0, 84% 0, 100% 100%, 0% 100%);
+}
+.clippy4 {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28%;
+  height: 30px;
+  color: white;
+  background-color: rgb(37, 105, 252);
+  clip-path: polygon(0 0, 84% 0, 100% 100%, 0% 100%);
+}
+.title {
+  color: white;
+  padding: 0px 0px 0px 40px;
+  position: absolute;
+  top: 240px;
+  font-size: 20px;
+}
+.date {
+  color: white;
+  position: absolute;
+  top: 300px;
+  font-size: 18px;
+  padding: 0px 0px 0px 40px;
+}
+.describe {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 350px;
+  font-size: 18px;
+  padding: 0px 0px 0px 40px;
+}
+.box-left-bottom-left:hover .title {
+  top: 220px;
+  color: red;
+}
+.box-left-bottom-left:hover .describe {
+  top: 275px;
+}
+.box-left-bottom-left:hover {
+  background: linear-gradient(360deg, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+}
+.box-left-bottom-right:hover .title {
+  top: 200px;
+  color: red;
+}
+.box-left-bottom-right:hover .describe {
+  top: 252px;
+}
+.box-left-bottom-right:hover {
+  background: linear-gradient(360deg, rgb(0, 0, 0), rgba(0, 0, 0, 0));
 }
