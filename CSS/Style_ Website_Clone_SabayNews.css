@@ -82,26 +82,40 @@
 }
 .box-left-top-left {
   position: relative;
+  overflow: hidden;
   width: 58%;
   height: 100%;
-  background-color: rgba(209, 11, 11, 0.014);
+  background-color: rgba(0, 0, 0, 0);
   display: flex;
 }
-.box-left-top-left img {
+/* .box-left-top-left img {
   width: 50%;
   height: 100%;
+} */
+.box-left-top-left img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
 }
 .box-left-top-right {
   width: 42%;
   height: 100%;
-  background-color: rgb(136, 122, 122);
+  background-color: rgba(0, 0, 0, 0);
   display: flex;
+  position: relative;
   overflow: hidden;
 }
-.box-left-top-right img {
-  /* transform: scale(1.5); */
+/* .box-left-top-right img {
+  transform: scale(1.5); 
   width: 50%;
   height: 100%;
+} */
+.box-left-top-right img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
 }
 .box-left-bottom {
   width: 100%;
@@ -112,7 +126,7 @@
 .box-left-bottom-left {
   width: 58%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.281);
+  background-color: rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
 }
@@ -160,6 +174,28 @@
 .box-right-bottom img {
   width: 100%;
   height: 100%;
+}
+.clippy1 {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 22%;
+  height: 30px;
+  color: white;
+  background-color: rgb(0, 209, 112);
+  clip-path: polygon(0 0, 84% 0, 100% 100%, 0% 100%);
+}
+.clippy2 {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 22%;
+  height: 30px;
+  color: white;
+  background-color: rgb(0, 209, 112);
+  clip-path: polygon(0 0, 84% 0, 100% 100%, 0% 100%);
 }
 .clippy3 {
   margin: 10px 0px;
@@ -222,5 +258,25 @@
   top: 252px;
 }
 .box-left-bottom-right:hover {
+  background: linear-gradient(360deg, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+}
+.box-left-top-left:hover .title {
+  top: 220px;
+  color: red;
+}
+.box-left-top-left:hover .describe {
+  top: 275px;
+}
+.box-left-top-left:hover {
+  background: linear-gradient(360deg, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+}
+.box-left-top-right:hover .title {
+  top: 200px;
+  color: red;
+}
+.box-left-top-right:hover .describe {
+  top: 252px;
+}
+.box-left-top-right:hover {
   background: linear-gradient(360deg, rgb(0, 0, 0), rgba(0, 0, 0, 0));
 }
