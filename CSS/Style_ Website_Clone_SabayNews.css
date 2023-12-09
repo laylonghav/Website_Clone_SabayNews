@@ -61,6 +61,8 @@
   padding: 10px;
   border-radius: 50px; */
 }
+
+/* ------------------------------------Box-body-------------------------------------- */
 .body1 {
   width: 80%;
   height: 700px;
@@ -280,6 +282,9 @@
 .box-left-top-right:hover {
   background: linear-gradient(360deg, rgb(0, 0, 0), rgba(0, 0, 0, 0));
 }
+
+/* -------------------------------Box-body------------------------------------------- */
+
 .body {
   width: 80%;
   height: auto;
@@ -322,6 +327,9 @@
   height: 7px;
   background-color: rgb(235, 64, 135);
 }
+
+/* ---------------------------------------------------Box-video--------------------------------------------------- */
+
 .body-video {
   width: 80%;
   height: 900px;
@@ -337,6 +345,9 @@
   height: 95%;
   /* background-color: antiquewhite; */
 }
+
+/* ------------------------------------------------Box-body1---------------------------------------------- */
+
 .box-body1 {
   width: 100%;
   height: 50%;
@@ -369,6 +380,9 @@
   background-color: white;
   color: black;
 }
+
+/* ------------------------------------------------------------Box-body2-------------------------------------------- */
+
 .box-body2 {
   width: 100%;
   height: 50%;
@@ -413,6 +427,7 @@
 .box-2-bottom:hover img {
   transform: scale(0.8888);
 }
+
 .title-video-top-2 {
   overflow: hidden;
   width: 100%;
@@ -434,6 +449,10 @@
   width: 100%;
   height: 20%;
 }
+
+/* <!-- ---------Box-Entertainment-------- --> */
+
+
 .body3 {
   width: 80%;
   height: 400px;
@@ -444,49 +463,49 @@
   justify-content: center;
   align-items: center;
 }
-.box-body3{
+.box-body3 {
   width: 95%;
   height: 95%;
   /* background-color: antiquewhite; */
   display: flex;
   justify-content: space-between;
 }
-.more i{
+.more-Entertainment i {
   font-size: 45px;
   color: rgb(235, 64, 135);
 }
-.more{
+.more-Entertainment {
   display: flex;
   justify-content: center;
   align-items: center;
-  width:2.5%;
+  width: 2.5%;
   height: 100%;
 }
-.box-body3-left{
+.box-body3-left {
   width: 34%;
   height: 100%;
   background-color: black;
 }
-.box-body3-right{
+.box-body3-right {
   width: 64.5%;
   height: 100%;
   /* background-color: rgb(155, 41, 41); */
 }
-.box-body3-right-top{
+.box-body3-right-top {
   width: 100%;
   height: 50%;
   display: flex;
   justify-content: space-between;
   /* background-color: blue; */
 }
-.box-body3-right-bottom{
+.box-body3-right-bottom {
   width: 100%;
   height: 50%;
   display: flex;
   justify-content: space-between;
   /* background-color: rgb(0, 255, 42); */
 }
-.box3{
+.box3 {
   width: 24.5%;
   height: 100%;
   background-color: red;
@@ -509,27 +528,125 @@
   width: 100%;
   height: 100%;
 }
-.box-body3-left:hover img{
+.box-body3-left:hover img {
   transform: scale(0.8888);
 }
-.box3:hover img{
+.box3:hover img {
   transform: scale(0.8888);
 }
-.title-Entertainment{
+.title-Entertainment {
   overflow: hidden;
   width: 100%;
   height: 30%;
   padding: 20px 20px 20px 20px;
-  background-color: rgb(235, 64, 135);;
+  background-color: rgb(235, 64, 135);
   color: rgb(255, 255, 255);
-  font-size:20px;
+  font-size: 20px;
 }
-.title-Entertainment-s{
+.title-box-s {
   overflow: hidden;
   width: 100%;
   height: 30%;
   padding: 3px 0px 3px 0px;
-  background-color: rgb(255, 255, 255);;
+  background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  font-size:12px;
+  font-size: 12px;
+}
+/* <!------------------------------------ Box-tecnology ------------------------------------------> */
+.more-tecnology i {
+  font-size: 45px;
+  color: rgb(37, 105, 252);
+}
+.clippy-tecnology {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  height: 50px;
+  color: white;
+  font-size: 28px;
+  background-color: rgb(37, 105, 252);
+  clip-path: polygon(0 0, 84% 0, 100% 100%, 0% 100%);
+}
+.hr-tecnology {
+  margin: 0;
+  width: 100%;
+  height: 7px;
+  background-color: rgb(37, 105, 252);
+}
+.title-tecnology {
+  overflow: hidden;
+  width: 100%;
+  height: 30%;
+  padding: 20px 20px 20px 20px;
+  background-color: rgb(37, 105, 252);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+/* <!------------------------------------ Life and society ------------------------------------------> */
+.more-Life-and-society i {
+  font-size: 45px;
+  color: rgb(0, 209, 112);
+}
+.clippy-Life-and-society {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 50px;
+  color: white;
+  font-size: 28px;
+  background-color: rgb(0, 209, 112);
+  clip-path: polygon(0 0, 84% 0, 100% 100%, 0% 100%);
+}
+.hr-Life-and-society {
+  margin: 0;
+  width: 100%;
+  height: 7px;
+  background-color: rgb(0, 209, 112);
+}
+.title-Life-and-society {
+  overflow: hidden;
+  width: 100%;
+  height: 30%;
+  padding: 20px 20px 20px 20px;
+  background-color: rgb(0, 209, 112);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+/* <!------------------------------------ Sports  ------------------------------------------> */
+.more-Sports i {
+  font-size: 45px;
+  color: rgb(255, 187, 0);
+}
+.clippy-Sports  {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 50px;
+  color: white;
+  font-size: 28px;
+  background-color: rgb(255, 187, 0);
+  clip-path: polygon(0 0, 84% 0, 100% 100%, 0% 100%);
+}
+.hr-Sports  {
+  margin: 0;
+  width: 100%;
+  height: 7px;
+  background-color: rgb(255, 187, 0);
+}
+.title-Sports  {
+  overflow: hidden;
+  width: 100%;
+  height: 30%;
+  padding: 20px 20px 20px 20px;
+  background-color: rgb(255, 187, 0);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
 }
