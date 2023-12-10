@@ -667,20 +667,32 @@
   justify-content: space-between;
 }
 .box-footer-left {
-  padding: 20px;
-  width: 34%;
+  padding: 40px 0px 0px 0px;
+  width: 35%;
   height: 100%;
   /* background-color: aqua; */
 }
 .box-footer-center {
-  padding: 20px;
-  width: 32%;
+  padding: 40px 0px 0px 0px;
+  width: 40%;
   height: 100%;
   /* background-color: rgb(132, 0, 255); */
 }
 .box-footer-right {
-  padding: 20px;
-  width: 34%;
+  margin-left: 30px;
+  padding: 40px 0px 0px 0px;
+  width: 25%;
   height: 100%;
   /* background-color: aqua; */
+}
+.box-footer-center img{
+  margin-top: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.box-footer-right i{
+  margin: 10px 0px 20px 0px;
+  padding: 5px;
+  font-size: 35px;
 }
